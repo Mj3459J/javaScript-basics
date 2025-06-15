@@ -43,5 +43,20 @@ let strNum=String(num)
 
 let n1,n2,n3
 n1=n2=n3=2+2;// 4 in all
- 
+
+
+// console.log(null>0);// false
+// console.log(null==0);//false
+// console.log(null>=0);//true
+/* 
+The reason is that equality == check and comparision(>,<,>=,<=) work differently
+Comparision converts null to a number,treation it as 0.
+that`s why null>=0 is true ans null>0 is false.
+
+*/
+// Strict check ===
+// console.log("2"==2)// true
+// console.log("2"===2)// false
+// Strict check also checks the data type of the both values.
+
 
