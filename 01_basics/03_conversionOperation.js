@@ -30,3 +30,18 @@ let strNum=String(num)
 // 33=> "33"
 // true=>"true"
 // null=>"null"
+
+
+// ***Operations***
+// console.log("1"+2);//12
+// console.log(1+"2");//12
+// console.log("1"+2+2);//122
+// console.log(1+2+"2");//32
+
+// console.log(+true);// 1
+// console.log(+"");// 0
+
+let n1,n2,n3
+n1=n2=n3=2+2;// 4 in all
+ 
+
