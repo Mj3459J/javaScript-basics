@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part 3</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const div=document.createElement('div');
+    div.className="main";
+    div.id="111";
+    // div.innerText="Hello"// not prefered this instead see next line that is optimised operation.
+    const addText=document.createTextNode("Hello Developer");
+    div.append(addText);
+
+    // now to display div we have to append it
+    document.body.appendChild(div);
+</script>
+</html>
